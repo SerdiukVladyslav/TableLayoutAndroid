@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <!-- Перший рядок -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:text="B1" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_weight="1" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <!-- Другий рядок -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:text="B2" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:text="B3" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <!-- Третій рядок -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_span="3"
+                android:text="B4" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:text="B5" />
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>
